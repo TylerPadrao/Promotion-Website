@@ -1,0 +1,55 @@
+/* Style the body's color to black, have auto margins, and have padding on left and right */
+body {
+  background-color: black;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* h1 heading styles */
+h1 {
+  font-family: "Trebuchet MS";
+  color: #b31818;
+}
+
+/* paragraph element styles */
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5em;
+  color: white;
+}
+
+/* link styles */
+div a {
+  color: white;
+  transition: 0.4s;
+}
+
+/* footer styles */
+.back_to_index,
+footer {
+  text-align: center;
+  font-family: "Trebuchet MS";
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: white;
+  transition: 0.4s;
+}
+
+/* link styles when state is hover */
+a:hover {
+  color: #b31818;
+}
+
+/* media query styles: mobile view */
+@media screen and (max-width: 900px) {
+  body {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  a {
+    word-wrap: break-word;
+  }
+}
